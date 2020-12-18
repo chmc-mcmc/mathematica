@@ -1,2 +1,2 @@
 # hmc sampler
-mcmc: hmc, rhmc and chmc (complementary Hamiltonian Monte Carlo, maybe a better name is needed)
+mcmc: hmc, rhmc (Riemannian manifold Hamiltonian Monte Carlo) and chmc (complementary Hamiltonian Monte Carlo, maybe a better name is needed)
