@@ -1,1 +1,1 @@
-MCMC: HMC, RHMC (Riemannian manifold Hamiltonian Monte Carlo) and CHMC (Complementary Hamiltonian Monte Carlo, maybe a better name is needed).
+mcmc: hmc, rhmc (riemannian manifold hamiltonian monte carlo) and chmc (complementary hamiltonian monte carlo, maybe a better name is needed).
