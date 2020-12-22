@@ -7,3 +7,4 @@ mcmc: hmc, rhmc (riemannian manifold hamiltonian monte carlo) , chmc (complement
 5. 接受概率与总能量成反比
 6. 交替使用两种仿真轨迹，以兼顾所有主成分方向
 7. 使用metropolis算法
+8. 根据势能极值出现的位置决定时间步长
