@@ -5,23 +5,29 @@ hmc::usage = "qs=hmc[U,dU,ddU,Dim,BURNIN,EPISODE,vanilla,switch]";
 HessianH::usage="HessianH[f,x]";
 GradientG::usage="GradientG[f,x]";
 psrf::usage="psrf[QS]";
-CHAINS::usage = "chains";
-STEPS::usage="leap frog steps"
+CHAINS::usage = "mcmc chains, or particles";
+dt10::usage = "time step for hmc";
+dt20::usage = "time step for rhmc";
+STEPS::usage="steps"
+INTERVAL::usage="INTERVAL"
 
 
 Begin["`Private`"]
 
 CHAINS=10;
 STEPS=10;
+dt10=0.00001;
+dt20=0.01;
+INTERVAL=1001;
 hmc[U_,dU_,ddU_,Dim_,BURNIN_,EPISODE_,vanilla0_,switch_]:=Module[{qAll,pAll,Utotal,Ktotal,Htotal,s,S,AS,ES,KtotalNew,dt,p,q0,UE,\[Alpha],q,j,Htotal1,Htotal2,
 ND=NormalDistribution[0,1],
 UD=UniformDistribution[],
-QS=List[],vanilla=vanilla0,dt1=0.000000001,dt2=0.0001,ACS={}},
+QS=List[],vanilla=vanilla0,dt1=dt10,dt2=dt20,ACS={}},
 pAll=RandomVariate[ND,{CHAINS,Dim}];
 qAll=RandomVariate[ND,{CHAINS,Dim}];
 Utotal=Sum[Apply[ U,qAll[[i]]],{i,1,CHAINS}];
-Htotal1=Utotal;
-Htotal2=Utotal;
+Htotal1=2Utotal;
+Htotal2=2Utotal;
 For[j=1,j\[LessSlantEqual]EPISODE,j++,
 pAll=RandomVariate[ND,{CHAINS,Dim}];
 KtotalNew = Sum[If[vanilla,pAll[[i]].pAll[[i]],pAll[[i]]. LinearSolve[Apply[ddU,qAll[[i]]],pAll[[i]]]]/2,{i,1,CHAINS}];
@@ -49,14 +55,12 @@ qAll[[i]]=q;
 If[j>BURNIN,QS=Append[QS,q]]];
 s=Union[Flatten[Table[Ordering[ES[[i]],1],{i,1,CHAINS}]]];
 S =Union[Flatten[Table[Ordering[ES[[i]],-1],{i,1,CHAINS}]]];
-If[True  && Mod[j,501]==0,Print[j," ",Ktotal," ",KtotalNew," ",Mean[AS]," ",StandardDeviation[AS]," ",Utotal," ", Htotal1," ",Htotal2," ",dt1," ",dt2," ", vanilla," ",s," ",S]];
-
+If[True  && Mod[j,INTERVAL]==0,Print[j," ",Ktotal," ",KtotalNew," ",Mean[AS]," ",StandardDeviation[AS]," ",Utotal," ", Htotal1," ",Htotal2," ",dt1," ",dt2," ", vanilla," ",s," ",S]];
 If[j<BURNIN,
-If[s=={1,STEPS+1}&&S=={1,STEPS+1}|| s=={STEPS+1}&&S=={1},dt=dt 1.1];
-If[s=={1} || S=={STEPS+1},dt=dt/1.1];
+If[s=={1,STEPS+1}&&S=={1,STEPS+1},dt=dt 1.1];
+If[s=={1} && S=={STEPS+1},dt=dt/1.1];
 If[Ktotal>0&&KtotalNew>0,
-If[Utotal<0&&Htotal>Utotal+1000,Htotal=Utotal+1000,
-If[Utotal>0&&Htotal>100Utotal,Htotal=100Utotal,
+If[Utotal<0&&Htotal>Utotal+1000,Htotal=Utotal+1000,If[Utotal>0&&Htotal>100Utotal,Htotal=100Utotal,
 If[Mean[AS]>.9,Ktotal=Ktotal 1.1,
 If[Mean[AS]<.1,Ktotal=Ktotal/ 1.1]];Htotal=Ktotal+Utotal]]];
 If[vanilla,
@@ -64,7 +68,7 @@ Htotal1=Htotal;
 dt1=dt,
 Htotal2=Htotal;
 dt2=dt]];
-If[switch ,vanilla=Not[vanilla]]];
+If[switch,vanilla=Not[vanilla]]];
 QS];
 
 
