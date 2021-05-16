@@ -16,3 +16,4 @@ demonstrated with:
 * change point model
 * hierarchical model
 * Weibull
+* missing data
