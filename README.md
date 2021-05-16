@@ -14,3 +14,5 @@ demonstrated with:
 * Cox's Proportional Hazard Model
 * Jelinski–Moranda
 * change point model
+* hierarchical model
+* Weibull
