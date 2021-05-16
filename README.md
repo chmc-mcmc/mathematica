@@ -7,3 +7,10 @@ It is based on the following ideas:
 4. use "metropolis" algorithm
 5. tune all parameter automatically
 6. use both trajectories of HMC and RMHMC
+
+demonstrated with:
+* Linear Programming
+* Nonstationary Non-Poisson Process
+* Cox's Proportional Hazard Model
+* Jelinski–Moranda
+* change point model
