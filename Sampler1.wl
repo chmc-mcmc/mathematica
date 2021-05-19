@@ -29,8 +29,8 @@ callback::usage="callback";
 Begin["`Private`"]
 CHAINS=3;
 STEPS=3;
-dt10=0.01;
-dt20=0.01;
+dt10=0.00000000000001;
+dt20=0.00000000000001;
 INTERVAL=1001;
 outbnd[q_]:=False;
 callback[j_]:=None;
