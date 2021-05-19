@@ -17,3 +17,4 @@ demonstrated with:
 * hierarchical model
 * Weibull
 * missing data
+* Bayesian Networks
