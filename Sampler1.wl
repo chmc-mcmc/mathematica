@@ -75,8 +75,8 @@ bad=False;
 p=pAll[[i]];
 q=qAll[[i]];
 q0=q;
-If[j<=BURNIN,UE={Apply[U,q]}];Do[p=p-dt Apply[dU,q];q1=q;q=q+dt If[vanilla,p,If[diag,p/Apply[ddU,q],LinearSolve[Apply[ddU,q],p,Method->"Krylov"]]];
-If[j<=BURNIN,UE=Append[UE,Apply[U,q]]],STEPS];If[outbnd[q],bad=True];
+If[j<=BURNIN,UE={Apply[U,q]}];Do[p=p-dt Apply[dU,q];q1=q;q=q+dt If[vanilla,p,If[diag,p/Apply[ddU,q],LinearSolve[Apply[ddU,q],p,Method->"Krylov"]]];If[(*Not[outbnd[q1]] &&*) outbnd[q],bad=True;q=q1];
+If[j<=BURNIN,UE=Append[UE,Apply[U,q]]],STEPS];
 If[j<=BURNIN,ES=Append[ES,UE]];\[Alpha]=If[bad,0,Exp[Clip[Apply[U,q0]-Apply[U,q],{-20,0}]]];AS=Append[AS,N[\[Alpha]]];If[\[Alpha]<RandomVariate[UD],q=q0];qAll[[i]]=q;If[j>BURNIN,QS[[ii,;;]]=q;ii=ii+1]];If[Mod[j,INTERVAL]==0,Print[Row[{j,Ktotal,KtotalNew,Mean[AS],StandardDeviation[AS],Utotal,Htotal1,Htotal2,dt1,dt2,vanilla,s,S},"     "]]];If[j<=BURNIN,
 s=Union[Flatten[Table[Ordering[ES[[i]],1],{i,1,CHAINS}]]];S=Union[Flatten[Table[Ordering[ES[[i]],-1],{i,1,CHAINS}]]];If[s=={1,STEPS+1}&&S=={1,STEPS+1},dt=dt (1+decaydt)];If[s=={1}&&S=={STEPS+1},dt=dt/(1+decaydt)];hi=Mean[AS]>HIGHAP;lo=Mean[AS]<LOWAP;If[hi,Htotal=(Htotal-Utotal)(1+decayenergy)+Utotal,If[lo,Htotal=(Htotal-Utotal)/(1+decayenergy)+Utotal]]];If[vanilla,
 Htotal1=Htotal;dt1=dt,
