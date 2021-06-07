@@ -1,5 +1,5 @@
 mcmc:
-![avatar](3traj.png =100x100)
+![avatar](3traj.png)
 
 1. the system is consisted of (a few if CPU, many if CUDA) particles
 2. these particles can exchange energy by colliding virtually
