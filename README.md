@@ -2,7 +2,7 @@ mcmc:
 
 Gradient descent, Newton, and Anti-GD, or HMC, RMHMC, and Anti-HMC trajectories:
 
-To ∂K/∂q or not to ∂K/∂q:
+with ∂K/∂q or without ∂K/∂q:
 ![avatar](3traj1.png)
 
 1. the system is consisted of (a few if CPU, many if CUDA) particles
