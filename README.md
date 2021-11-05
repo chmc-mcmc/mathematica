@@ -1,16 +1,6 @@
-mcmc:
-
-Gradient descent, Newton, and Anti-GD, or HMC, RMHMC, and Anti-HMC trajectories:
-
-with ∂K/∂q or without ∂K/∂q:
-![avatar](3traj1.png)
-
-1. the system is consisted of (a few if CPU, many if CUDA) particles
-2. these particles can exchange energy by colliding virtually
-3. the energy of the whole system is conserved
-4. use "metropolis" algorithm
-5. tune parameter automatically
-6. use both trajectories
+Codebase for
+* "A Multi-Trajectory Monte Carlo Sampler"
+* "Robust Inference Based On the Complementary Hamiltonian Monte Carlo"
 
 demonstrated with:
 * Linear Programming
