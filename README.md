@@ -1,4 +1,4 @@
-![avatar](./ring.png)
+![avatar](/ring.png)
 
 Several ideas emerge during my academic visiting to Dr. Henry at UoW, and others in collaboration with Prof. Yang, and also from a question of a reviewer.
 
