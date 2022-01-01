@@ -1,6 +1,6 @@
 ![avatar](/ring.png)
 
-After spending several years to  find in vain the "global optimal solution" of artificial neural networks, I finally give it up and set the research subject myself because  time runs out and somebody waits to kick me out.
+After spending several years to  find in vain the "global optimal solution" of artificial neural networks by tuning algorithmic parameters, I finally give it up and set the research subject myself because  time runs out and somebody waits to kick me out.
 
 Several ideas emerge during my academic visiting to Dr. Henry at UoW, and others in collaboration with Prof. Yang, and also from a question of a reviewer.
 
