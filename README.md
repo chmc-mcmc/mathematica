@@ -1,5 +1,5 @@
 # Purpose
-Hamiltonian Dynamics based MCMC
+Dynamics based MCMC
 
 # Codebase for
 * "A Multi-Trajectory Monte Carlo Sampler"
