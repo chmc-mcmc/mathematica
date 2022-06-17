@@ -5,3 +5,4 @@ Codebase for
 * "Robust Inference Based On the Complementary Hamiltonian Monte Carlo"
 * orthogonal multi-trajectory sampler
 * method4/Sampler4
+$a_1$
