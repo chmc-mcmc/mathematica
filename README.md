@@ -4,6 +4,10 @@
 * orthogonal multi-trajectory sampler
 * method4/Sampler4
 
+# Example
+* example.nb
+* sampler.wl
+
 # Theory
 
 Total energy:
@@ -26,6 +30,10 @@ The Kinetic energy with a parameter $r$:
 
 $K_{r}(p,q)=K(p,q,r)=\frac{1}{2}q^{T}\cdot U_{qq}^{-r}\cdot q$.
 
+Eigen decomposition:
+
+$U_{qq}=V\cdot\Lambda\cdot{}V^{T}$
+
 For non-positive (and positive) definite Hessian:
 
 $U_{qq}^{-r}:=V\cdot(\left|\Lambda\right|^{-r} \odot \text{sign}(\Lambda)\cdot{}V^{T}$.
@@ -41,8 +49,6 @@ Thus, the Metropolis algorithm's acceptance probability can be utilized to deter
 $\alpha=e^{U(q_{1})-U(q_{0})}$.
 
 # Usage
-
-Basic usage can be found in the "example.nb" and "sampler.wl".
 
 1. load the sampler.
 
