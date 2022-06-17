@@ -1,3 +1,6 @@
+# Purpose
+Hamiltonian Dynamics based MCMC
+
 # Codebase for
 * "A Multi-Trajectory Monte Carlo Sampler"
 * "Robust Inference Based On the Complementary Hamiltonian Monte Carlo"
