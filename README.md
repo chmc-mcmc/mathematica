@@ -69,11 +69,11 @@ Kq[p_, q_, r_] = 0;
 
 3. define the potential energy, i.e. the negative logarithm of probability density function, e.g. a bivariate normal distribution:
 
-$\Sigma=\left(
+$$\Sigma=\left(
 \begin{array}{cc}
  1 & 0.999999999999999 \\
  0.999999999999999 & 1 \\
-\end{array}\right)$
+\end{array}\right)$$
 
 ```
 rho = 1 - 1/10^15;
