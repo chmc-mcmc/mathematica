@@ -16,7 +16,7 @@ Euler integration:
 
 $q_{1}= q_{0}+ \delta\times K_{p}(p_{0},q_{0})$
 
-$p_{1 }= p_{0} - \delta\times \left( U_{q}(q_1_{})+K_{q}(p_0_{},q_1_{}) \right)$
+$p_{1}= p_{0} - \delta\times \left( U_{q}(q_1)+K_{q}(p_0,q_1) \right)$
 
 The Kinetic energy with a parameter $r$:
 
