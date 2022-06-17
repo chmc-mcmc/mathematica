@@ -32,7 +32,7 @@ $K_{r}(p,q)=K(p,q,r)=\frac{1}{2}q^{T}\cdot U_{qq}^{-r}\cdot q$.
 
 For simplicity, $r$ is a parameter (unlike $K_p$ and $K_q$).
 
-For r can be a decimal, Eigen decomposition is carried out:
+For $r$ can be a decimal, Eigen decomposition is carried out:
 
 $U_{qq}=V\cdot\Lambda\cdot{}V^{T}$.
 
@@ -42,7 +42,7 @@ $U_{qq}^{-r}:=V\cdot(\left|\Lambda\right|^{-r} \odot \text{sign}(\Lambda)\cdot{}
 
 The kinetic energy function that permits correct sampling of multivariate normal distributions utilizes the $K_{0.5}$ .
 
-If the system comprises several particles with collision effects, it is intuitively apparent that there is no difference in jumping probability between the simulation trajectory's two terminals. Therefore, for a multi-particle system with interacting particles, if total energy conservation is enforced during collision, the mutual jump probability of any particle's position at either end of the trajectory is equal, and the following equation follows
+If the system comprises several particles with collision effects, it is intuitively apparent that there is no difference in jumping probabilities between the simulation trajectory's two terminals. Therefore, for a multi-particle system with collision, if total energy conservation is enforced during collision, the mutual jump probabilities of any particle's position at either end of the trajectory are equal, and the following equation follows
 
 $P(q_{0 } \to q_{1}) = P(q_{1 } \to q_{0})$.
 
