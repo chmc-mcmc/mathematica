@@ -26,13 +26,15 @@ $q_{1}= q_{0}+ \delta\times K_{p}(p_{0},q_{0})$,
 
 $p_{1}= p_{0} - \delta\times \left( U_{q}(q_1)+K_{q}(p_0,q_1) \right)$.
 
-The Kinetic energy with a parameter $r$:
+The Kinetic energy $K_r$:
 
 $K_{r}(p,q)=K(p,q,r)=\frac{1}{2}q^{T}\cdot U_{qq}^{-r}\cdot q$.
 
-Eigen decomposition:
+For simplicity, $r$ is a parameter (unlike $K_p$ and $K_q$).
 
-$U_{qq}=V\cdot\Lambda\cdot{}V^{T}$
+For r can be a decimal, Eigen decomposition is carried out:
+
+$U_{qq}=V\cdot\Lambda\cdot{}V^{T}$.
 
 For non-positive (and positive) definite Hessian:
 
