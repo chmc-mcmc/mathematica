@@ -42,6 +42,8 @@ $\alpha=e^{U(q_{1})-U(q_{0})}$.
 
 # Usage
 
+Basic usage can be found in the "example.nb" and "sampler.wl".
+
 1. load the sampler.
 
 ```
@@ -70,7 +72,7 @@ Uqqq[x_, y_] = D3[U[x, y], {x, y}];
 
 ```
 
-5. Run the sampler.
+5. Run the sampler with $K_{0.5}$.
 ```
 Dim = 2;
 BURNIN=5000;
@@ -89,3 +91,31 @@ ListPlot[{QS, QS1}, PlotStyle -> Opacity[1], AspectRatio -> 1, PlotLegends -> {S
 > {0.99964, 1.0068}
 
 ![scatter plots](bn2.png "scatter plots")
+
+# Additional
+
++ For difficult models, several kinetic energies can be adopted, e.g.:
+
+```
+QS = hmc[U, Uq, Uqq, Uqqq, Dim, BURNIN, ITERATIONS, {.45,.5,.55}, {}];
+```
+
++ Run-time parameter can be set:
+
+```
+CHAINS=5;
+STEPS=6;
+```
+
++ Flat prior can be implemented by setting a reject region, e.g.:
+
+```
+outbnd[q_] := q[[-1]] <= 0;
+```
+
++ Provide initial value.
+
+```
+qinit = RandomVariate[UniformDistribution[], {CHAINS, Dim}];
+QS = hmc[U, Uq, Uqq, Uqqq, Dim, BURNIN, ITERATIONS, {.5}, qinit];
+```
