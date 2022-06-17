@@ -6,34 +6,39 @@
 
 # Theory
 
+Total energy:
+
+$H(q,p)=K(p,q)+U(q)$.
+
 Hamiltonian Dynamics:
 
-$\dot{q}=H_{p}=K_{p}$
+$\dot{q}=H_{p}=K_{p}$,
 
-$\dot{p}=-H_{q}=-U_{q}-K_{q}$
+$\dot{p}=-H_{q}=-U_{q}-K_{q}$.
 
 Euler integration:
 
-$q_{1}= q_{0}+ \delta\times K_{p}(p_{0},q_{0})$
+$q_{1}= q_{0}+ \delta\times K_{p}(p_{0},q_{0})$,
 
-$p_{1}= p_{0} - \delta\times \left( U_{q}(q_1)+K_{q}(p_0,q_1) \right)$
+$p_{1}= p_{0} - \delta\times \left( U_{q}(q_1)+K_{q}(p_0,q_1) \right)$.
 
 The Kinetic energy with a parameter $r$:
 
-$K_{r}(p,q)=K(p,q,r)=\frac{1}{2}q^{T}\cdot U_{qq}^{-r}\cdot q$
+$K_{r}(p,q)=K(p,q,r)=\frac{1}{2}q^{T}\cdot U_{qq}^{-r}\cdot q$.
 
 For non-positive (and positive) definite Hessian:
 
-$U_{qq}^{-r}:=V\cdot(\left|\Lambda\right|^{-r} \odot \text{sign}(\Lambda)\cdot{}V^{T}$
+$U_{qq}^{-r}:=V\cdot(\left|\Lambda\right|^{-r} \odot \text{sign}(\Lambda)\cdot{}V^{T}$.
 
 The kinetic energy function that permits correct sampling of multivariate normal distributions utilizes the $K_{0.5}$ .
 
 If the system comprises several particles with collision effects, it is intuitively apparent that there is no difference in jumping probability between the simulation trajectory's two terminals. Therefore, for a multi-particle system with interacting particles, if total energy conservation is enforced during collision, the mutual jump probability of any particle's position at either end of the trajectory is equal, and the following equation follows
 
-$P(q_{0 } \to q_{1}) = P(q_{1 } \to q_{0})$
+$P(q_{0 } \to q_{1}) = P(q_{1 } \to q_{0})$.
 
-Thus, the Metropolis algorithm's acceptance probability can be utilized to determine if a particle jumps to the new position
-$\alpha=e^{U(q_{1})-U(q_{0})}$
+Thus, the Metropolis algorithm's acceptance probability can be utilized to determine if a particle jumps to the new position:
+
+$\alpha=e^{U(q_{1})-U(q_{0})}$.
 
 # Usage
 
@@ -70,15 +75,15 @@ Uqqq[x_, y_] = D3[U[x, y], {x, y}];
 Dim = 2;
 BURNIN=5000;
 ITERATIONS=10000;
+QS = hmc[U, Uq, Uqq, Uqqq, Dim, BURNIN, ITERATIONS, {.5}, {}];
 ```
 
 6. Check the result.
 
 ```
- QS1 = QS.MatrixPower[SIGMA, -.5];
+QS1 = QS.MatrixPower[SIGMA, -.5];
 StandardDeviation[QS1]
-ListPlot[{QS, QS1}, PlotStyle -> Opacity[1], AspectRatio -> 1, 
- PlotLegends -> {Samples, Transformed}]
+ListPlot[{QS, QS1}, PlotStyle -> Opacity[1], AspectRatio -> 1, PlotLegends -> {Samples, Transformed}]
 ```
 
 > {0.99964, 1.0068}
