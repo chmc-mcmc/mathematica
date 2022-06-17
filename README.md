@@ -67,7 +67,14 @@ SetDirectory[NotebookDirectory[]];
 Kq[p_, q_, r_] = 0;
 ```
 
-3. define the potential energy, i.e. the negative logarithm of probability density function.
+3. define the potential energy, i.e. the negative logarithm of probability density function, e.g. a bivariate normal distribution:
+
+$\Sigma=\left(
+\begin{array}{cc}
+ 1 & \frac{999999999999999}{1000000000000000} \\
+ \frac{999999999999999}{1000000000000000} & 1 \\
+\end{array}
+\right)$
 
 ```
 rho = 1 - 1/10^15;
