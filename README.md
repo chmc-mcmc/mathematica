@@ -35,7 +35,7 @@ $K_{r}(p,q)=K(p,q,r)=\frac{1}{2}p^{T}\cdot U_{qq}^{-r}\cdot p$.
 
 For simplicity, $r$ is a parameter (unlike $K_p$ and $K_q$).
 
-For $r$ can be a decimal, Eigen decomposition is carried out:
+Because $r$ can be a decimal, Eigen decomposition is carried out:
 
 $U_{qq}=V\cdot\Lambda\cdot{}V^{T}$.
 
