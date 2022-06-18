@@ -43,7 +43,7 @@ For non-positive (and positive) definite Hessian:
 
 $U_{qq}^{-r}:=V\cdot(\left|\Lambda\right|^{-r} \odot \text{sign}(\Lambda)\cdot{}V^{T}$.
 
-The kinetic energy function that permits correct sampling of multivariate normal distributions utilizes the $K_{0.5}$ .
+The kinetic energy function that permits correct sampling of multivariate normal distributions is the $K_{0.5}$ .
 
 If the system comprises several particles with collision effects, it is intuitively apparent that there is no difference in jumping probabilities between the simulation trajectory's two terminals. Therefore, for a multi-particle system with collision, if total energy conservation is enforced during collision, the mutual jump probabilities of any particle's position at either end of the trajectory are equal, and the following equation follows
 
