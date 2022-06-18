@@ -31,7 +31,7 @@ $p_{1}= p_{0} - \delta\times \left( U_{q}(q_1)+K_{q}(p_0,q_1) \right)$.
 
 The Kinetic energy $K_r$:
 
-$K_{r}(p,q)=K(p,q,r)=\frac{1}{2}q^{T}\cdot U_{qq}^{-r}\cdot q$.
+$K_{r}(p,q)=K(p,q,r)=\frac{1}{2}p^{T}\cdot U_{qq}^{-r}\cdot p$.
 
 For simplicity, $r$ is a parameter (unlike $K_p$ and $K_q$).
 
