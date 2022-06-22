@@ -107,7 +107,7 @@ ListPlot[{QS, QS1}, PlotStyle -> Opacity[1], AspectRatio -> 1, PlotLegends -> {S
 
 > {0.99964, 1.0068}
 
-![scatter plots](3traj1.png "scatter plots")
+![scatter plots](bn2.png)
 
 # Additional
 
