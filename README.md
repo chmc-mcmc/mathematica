@@ -107,7 +107,7 @@ ListPlot[{QS, QS1}, PlotStyle -> Opacity[1], AspectRatio -> 1, PlotLegends -> {S
 
 > {0.99964, 1.0068}
 
-![scatter plots](bn2.png)
+![scatter plots](https://github.com/chmc-mcmc/mathematica/bn2.png)
 
 # Additional
 
