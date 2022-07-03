@@ -9,7 +9,7 @@ Dynamics based MCMC
 
 # Example
 * example.nb
-* sampler.wl
+* Sampler.wl
 
 # Theory
 
