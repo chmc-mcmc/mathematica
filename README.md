@@ -142,3 +142,10 @@ outbnd[q_] := q[[-1]] <= 0;
 qinit = RandomVariate[UniformDistribution[], {CHAINS, Dim}];
 QS = hmc[U, Uq, Uqq, Uqqq, Dim, BURNIN, ITERATIONS, {.5}, qinit];
 ```
+
+# Reference
+## MCMC
+Statistical Mechanics Algorithms and Computations
+## HMC
+Information Theory, Inference, and Learning Algorithms
+
