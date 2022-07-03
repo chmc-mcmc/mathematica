@@ -55,7 +55,7 @@ $\alpha=e^{U(q_{1})-U(q_{0})}$.
 
 # Usage
 
-1. load the sampler.
+1. Load the sampler.
 
 ```
 SetDirectory[NotebookDirectory[]];
@@ -67,7 +67,7 @@ SetDirectory[NotebookDirectory[]];
 Kq[p_, q_, r_] = 0;
 ```
 
-3. define the potential energy, i.e. the negative logarithm of probability density function, e.g. a bivariate normal distribution with $\Sigma$:
+3. Define the potential energy, i.e. the negative logarithm of probability density function, e.g. a bivariate normal distribution with $\Sigma$:
 
 $$\Sigma=\left(
 \begin{array}{cc}
@@ -115,6 +115,12 @@ ListPlot[{QS, QS1}, PlotStyle -> Opacity[1], AspectRatio -> 1, PlotLegends -> {S
 
 ```
 QS = hmc[U, Uq, Uqq, Uqqq, Dim, BURNIN, ITERATIONS, {.45,.5,.55}, {}];
+```
+
++ The "complementary hamiltonian monte carlo":
+
+```
+QS = hmc[U, Uq, Uqq, Uqqq, Dim, BURNIN, ITERATIONS, {0, 1}, {}];
 ```
 
 + Run-time parameter can be set:
