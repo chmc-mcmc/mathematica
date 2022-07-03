@@ -117,7 +117,7 @@ ListPlot[{QS, QS1}, PlotStyle -> Opacity[1], AspectRatio -> 1, PlotLegends -> {S
 QS = hmc[U, Uq, Uqq, Uqqq, Dim, BURNIN, ITERATIONS, {.45,.5,.55}, {}];
 ```
 
-+ The "complementary hamiltonian monte carlo":
++ The "complementary hamiltonian monte carlo", i.e. using $K_0$ and $K_1$:
 
 ```
 QS = hmc[U, Uq, Uqq, Uqqq, Dim, BURNIN, ITERATIONS, {0, 1}, {}];
