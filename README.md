@@ -144,4 +144,6 @@ QS = hmc[U, Uq, Uqq, Uqqq, Dim, BURNIN, ITERATIONS, {.5}, qinit];
 # Reference
 + For MCMC: Statistical Mechanics Algorithms and Computations
 + For HMC: Information Theory, Inference, and Learning Algorithms
++ For the new method: doc-in-chinese.pdf
+
 
