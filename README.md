@@ -49,7 +49,7 @@ $P(q_{0 } \to q_{1}) = P(q_{1 } \to q_{0})$.
 
 Thus, the Metropolis algorithm's acceptance probability can be utilized to determine if a particle moves to the new position:
 
-$\alpha=e^{U(q_{1})-U(q_{0})}$.
+$\alpha=e^{U(q_{0})-U(q_{1})}$.
 
 # Usage
 
