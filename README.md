@@ -5,9 +5,13 @@ Dynamics based MCMC
 * "A Multi-Trajectory Monte Carlo Sampler"
 * "Robust Inference Based On the Complementary Hamiltonian Monte Carlo"
 
-# Example
+# Examples based on multivariate normal distribution should be used.
+
 * example.nb
 * Sampler.wl
+
+# Note
+To reveal the problems of methods, quantitative experiments based on multivariate normal distribution should be used.
 
 # Theory
 
