@@ -1,11 +1,13 @@
 # Purpose
 Dynamics based MCMC
 
+Experiments based on multivariate normal can be used to reveal the problems of methods.
+
 # Codebase for
 * "A Multi-Trajectory Monte Carlo Sampler"
 * "Robust Inference Based On the Complementary Hamiltonian Monte Carlo"
 
-# Examples based on multivariate normal distribution should be used.
+# Examples
 
 * example.nb
 * Sampler.wl
