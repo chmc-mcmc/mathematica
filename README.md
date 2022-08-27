@@ -10,8 +10,8 @@ Dynamics based MCMC
 * example.nb
 * Sampler.wl
 
-# Note
-To reveal the problems of methods, quantitative experiments based on multivariate normal distribution should be used.
+# A remark
+To reveal the problems of methods, quantitative experiments based on multivariate normal distribution can be used. If even the normal distribution cannot be estimated correctly, then how can it be ensured to be used for other distributions?
 
 # Theory
 
