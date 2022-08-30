@@ -144,7 +144,7 @@ QS = hmc[U, Uq, Uqq, Uqqq, Dim, BURNIN, ITERATIONS, {.5}, qinit];
 
 + A remark for some duplicate questions
 
-To reveal the problems of methods, __quantitative__ experiments based on multivariate normal distribution can be used. If even the normal distribution cannot be estimated correctly, then how can it be possible to be used for other distributions? Some guys  simply keep asking for "more experiments compared with the latest methods", any suggestions?
+To reveal the problems of methods, __quantitative__ experiments based on multivariate normal distribution can be used.
 
 # Reference
 + For MCMC: Statistical Mechanics Algorithms and Computations
