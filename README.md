@@ -1,5 +1,7 @@
 # Purpose
-Dynamics based MCMC
+Dynamics based MCMC.
+
+The approach seems to work. I haven't figured out how it compares to the existing methods.
 
 # Codebase for
 * "A Multi-Trajectory Monte Carlo Sampler"
