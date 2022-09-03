@@ -46,7 +46,7 @@ $U_{qq}^{-r}:=V\cdot(\left|\Lambda\right|^{-r} \odot \text{sign}(\Lambda)\cdot{}
 
 or
 
-$U_{qq}^{-r}:=V\cdot|\Lambda\right|^{-r} \cdot{}V^{T}$.
+$U_{qq}^{-r}:=V\cdot \left|\Lambda\right|^{-r} \cdot{}V^{T}$.
 
 Currently, I don't know which one is better.
 
