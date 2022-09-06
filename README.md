@@ -3,7 +3,7 @@ Dynamics based MCMC.
 
 The approach seems to work.
 
-I highly suspect that some angry and aggressive people don't even understand half a word
+I highly suspect that some angry and aggressive people don't even understand half a word.
 
 # Codebase for
 * "A Multi-Trajectory Monte Carlo Sampler"
