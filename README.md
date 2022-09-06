@@ -3,8 +3,6 @@ Dynamics based MCMC.
 
 The approach seems to work.
 
-I highly suspect that some angry and aggressive people don't even understand half a word.
-
 # Codebase for
 * "A Multi-Trajectory Monte Carlo Sampler"
 * "Robust Inference Based On the Complementary Hamiltonian Monte Carlo"
@@ -155,6 +153,8 @@ QS = hmc[U, Uq, Uqq, Uqqq, Dim, BURNIN, ITERATIONS, {.5}, qinit];
 + A remark for some duplicate questions
 
 To reveal the problems of methods, __quantitative__ experiments based on multivariate normal distribution can be used.
+
+I highly suspect that some angry and aggressive people don't even understand half a word.
 
 # Reference
 + For MCMC: Statistical Mechanics Algorithms and Computations
