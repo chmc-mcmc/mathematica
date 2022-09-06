@@ -1,7 +1,9 @@
 # Purpose
 Dynamics based MCMC.
 
-The approach seems to work. I haven't figured out how it compares to the existing methods.
+The approach seems to work.
+
+I highly suspect that some angry and aggressive people don't even understand half a word
 
 # Codebase for
 * "A Multi-Trajectory Monte Carlo Sampler"
