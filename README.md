@@ -154,7 +154,7 @@ QS = hmc[U, Uq, Uqq, Uqqq, Dim, BURNIN, ITERATIONS, {.5}, qinit];
 
 To reveal the problems of methods, __quantitative__ experiments based on multivariate normal distribution can be used.
 
-Also, I highly suspect that some angry and aggressive people don't even understand half a word.
+Also, I highly suspect that some angry and aggressive people don't even understand half a word. I'm not fit to play politics :-(
 
 # Reference
 + For MCMC: Statistical Mechanics Algorithms and Computations
