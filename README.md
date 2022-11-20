@@ -1,8 +1,6 @@
 # Purpose
 Dynamics based MCMC.
 
-The approach seems to work.
-
 # Codebase for
 * "A Multi-Trajectory Monte Carlo Sampler"
 * "Robust Inference Based On the Complementary Hamiltonian Monte Carlo"
