@@ -1,5 +1,5 @@
 # Purpose
-Dynamics based MCMC.
+MCMC based on multi-particle Hamiltonian dynamics
 
 # Codebase for
 * "A Multi-Trajectory Monte Carlo Sampler"
@@ -148,9 +148,9 @@ qinit = RandomVariate[UniformDistribution[], {CHAINS, Dim}];
 QS = hmc[U, Uq, Uqq, Uqqq, Dim, BURNIN, ITERATIONS, {.5}, qinit];
 ```
 
-+ A remark for some duplicate questions
++ A remark for a repeated question
 
-To reveal the problems of methods, __quantitative__ experiments based on multivariate normal distribution can be used.
+To reveal the problems of MCMC methods, __quantitative__ experiments based on multivariate normal distribution can be used.
 
 # Reference
 + For MCMC: Statistical Mechanics Algorithms and Computations
