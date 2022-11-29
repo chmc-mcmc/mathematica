@@ -157,4 +157,4 @@ To reveal the problems of methods, __quantitative__ experiments based on multiva
 + For HMC: Information Theory, Inference, and Learning Algorithms
 
 # Acknowledgements
-The main idea was formed when I worked for Christopher Henry in Winnipeg; I stole some his money for my own research.
+The main idea was formed when I worked for Christopher Henry in Winnipeg; I owed him some money for my own research.
