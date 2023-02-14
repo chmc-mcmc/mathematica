@@ -157,4 +157,4 @@ To reveal the problems of MCMC methods, __quantitative__ experiments based on mu
 + For HMC: Information Theory, Inference, and Learning Algorithms
 
 # Acknowledgements
-I had been thinking about this kind of algorithm alone for years and have received polarized feedback (even abxxxxx words). The idea of multi-particle came into my mind in Winnipeg when I was doing some research for Christopher Henry. The idea of general kinetic energy was conceived in collaboration with Hongji Yang and others.
+I had been thinking about this kind of algorithm alone for years and have received polarized feedback (even abxxxxx words from a person). The idea of multi-particle came into my mind in Winnipeg when I was doing some research for Christopher Henry. The idea of general kinetic energy was conceived in collaboration with Hongji Yang and others.
