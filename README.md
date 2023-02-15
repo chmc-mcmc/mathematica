@@ -159,4 +159,4 @@ To reveal the problems of MCMC methods, __quantitative__ experiments based on mu
 # Acknowledgements
 I had been thinking about this topic alone for years and have receivsuddenly ed polarized feedback with headache :-( abxxxxx words from a constant source).
 
-The idea of multi-particle came into my mind suddenly in Winnipeg when I was doing some research for Christopher Henry. The concept of kinetic energy $K_r$ was conceived overnight in collaboration with Hongji Yang and others.
+The idea of multi-particle came into my mind suddenly in Winnipeg when I was doing some research for Christopher Henry. The concept of kinetic energy $K_r$ was developed overnight in collaboration with Hongji Yang.
