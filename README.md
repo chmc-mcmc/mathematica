@@ -172,6 +172,8 @@ The idea of multi-particle came into my mind suddenly in Winnipeg when I was doi
   pages={111-126},
   doi={10.1109/TR.2021.3117189}
   }
+```
+```
   @ARTICLE{9585691,
   author={Xu, Xiaopeng and Liu, Chuancai and Yang, Hongji and Zhang, Xiaochun},
   journal={Journal of Internet Technology}, 
