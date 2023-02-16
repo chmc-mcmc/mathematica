@@ -148,7 +148,7 @@ qinit = RandomVariate[UniformDistribution[], {CHAINS, Dim}];
 QS = hmc[U, Uq, Uqq, Uqqq, Dim, BURNIN, ITERATIONS, {.5}, qinit];
 ```
 
-+ A remark for a repeated question
++ A remark for a repeated question from a guy
 
 To reveal the problems of MCMC methods, __quantitative__ experiments based on multivariate normal distribution can be used.
 
