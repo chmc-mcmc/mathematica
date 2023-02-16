@@ -163,13 +163,14 @@ The idea of multi-particle came into my mind suddenly in Winnipeg when I was doi
 
 # Citation
 ```
-@article{article,
-author = {Xu, Xiaopeng and Liu, Chuancai and Yang, Hongji},
-year = {2022},
-pages = {111-126},
-title = {Robust Inference Based On the Complementary Hamiltonian Monte Carlo},
-volume = {71},
-journal = {IEEE Transactions on Reliability},
-doi = {10.1109/TR.2021.3117189}
-}
+@ARTICLE{9585691,
+  author={Xu, Xiaopeng and Liu, Chuancai and Yang, Hongji},
+  journal={IEEE Transactions on Reliability}, 
+  title={Robust Inference Based On the Complementary Hamiltonian Monte Carlo}, 
+  year={2022},
+  volume={71},
+  number={1},
+  pages={111-126},
+  doi={10.1109/TR.2021.3117189}
+  }
 ```
