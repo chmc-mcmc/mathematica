@@ -162,20 +162,14 @@ I had been thinking about this topic alone for years and have received polarized
 The idea of multi-particle came into my mind suddenly in Winnipeg when I was doing some research for Dr. Christopher Henry. The concept of kinetic energy $K_r$ was developed in collaboration with Prof. Hongji Yang.
 
 # Citation
-> @article{article,
-> 
-> author = {Xu, Xiaopeng and Liu, Chuancai and Yang, Hongji},
-> 
-> year = {2022},
-> 
-> pages = {111-126},
-> 
-> title = {Robust Inference Based On the Complementary Hamiltonian Monte Carlo},
-> 
-> volume = {71},
-> 
-> journal = {IEEE Transactions on Reliability},
-> 
-> doi = {10.1109/TR.2021.3117189}
-> 
-> }
+``
+@article{article,
+author = {Xu, Xiaopeng and Liu, Chuancai and Yang, Hongji},
+year = {2022},
+pages = {111-126},
+title = {Robust Inference Based On the Complementary Hamiltonian Monte Carlo},
+volume = {71},
+journal = {IEEE Transactions on Reliability},
+doi = {10.1109/TR.2021.3117189}
+}
+``
