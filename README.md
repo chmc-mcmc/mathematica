@@ -174,7 +174,7 @@ The idea of multi-particle came into my mind suddenly in Winnipeg when I was doi
   }
 ```
 ```
-  @ARTICLE{9585691,
+  @ARTICLE{ammcs,
   author={Xu, Xiaopeng and Liu, Chuancai and Yang, Hongji and Zhang, Xiaochun},
   journal={Journal of Internet Technology}, 
   title={A Multi-Trajectory Monte Carlo Sampler}, 
