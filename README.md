@@ -159,6 +159,8 @@ To reveal the problems of MCMC methods, __quantitative__ experiments based on mu
 # Acknowledgements
 I had been thinking about this topic alone for years and have received polarized feedback with headache :-)
 
+After I came up with a "new idea", I was very disappointed to find that there was already a similar method called RMHMC. But when I studied this method carefully, I found that it still seemed to have room for improvement......
+
 The idea of multi-particle came into my mind in Winnipeg when I was doing some research for Dr. Christopher Henry. The concept of kinetic energy $K_r$ was developed in collaboration with Prof. Hongji Yang. 
 
 # Citation
