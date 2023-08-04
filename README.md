@@ -1,5 +1,5 @@
 # Purpose
-MCMC based on multi-particle Hamiltonian dynamics, or maybe more appropriately called "Maxwell Hamiltonian Monte Carlo"
+MCMC based on multi-particle Hamiltonian dynamics, or more appropriately called "Maxwell Hamiltonian Monte Carlo"
 # Codebase for
 * "A Multi-Trajectory Monte Carlo Sampler"
 * "Robust Inference Based On the Complementary Hamiltonian Monte Carlo"
