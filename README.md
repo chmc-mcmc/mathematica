@@ -160,7 +160,7 @@ I had been thinking about this topic alone for years and have received polarized
 
 The idea of multi-particle came into my mind in Winnipeg when I was working on some research projects for Dr. Christopher Henry. The method of kinetic energy $K_r$ was developed in collaboration with Prof. Hongji Yang. 
 
-I would also like to thank my mentors and friends for their encouragement many years ago: Xu Hongbing of the University of Electronic Science and Technology, Shang Laiyou of Inner Mongolia Normal University, ...
+I would also like to thank my mentors and friends for their encouragement years ago: Xu Hongbing of the University of Electronic Science and Technology, Shang Laiyou of Inner Mongolia Normal University, ...
 # Citation
 ```
 @ARTICLE{9585691,
