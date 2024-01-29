@@ -45,7 +45,7 @@ or
 
 $U_{qq}^{-r}:=V\cdot \left|\Lambda\right|^{-r} \cdot{}V^{T}$.
 
-Currently, I don't know which one is better.
+Which one is better?
 
 The kinetic energy function that enables correct sampling of multivariate normal distributions __may__ be $K_{0.5}$.
 
