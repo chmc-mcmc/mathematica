@@ -156,7 +156,7 @@ To reveal the problems of MCMC methods, __quantitative__ experiments based on mu
 + For HMC: Information Theory, Inference, and Learning Algorithms
 
 # Acknowledgements
-I had been thinking about this topic alone for years and have received polarized feedback with headache :-)
+I had been thinking about this topic alone for years and have received polarized feedback, with headaches :-)
 
 The idea of multi-particle came into my mind in Winnipeg when I was working on some research projects for Dr. Christopher Henry. The method of kinetic energy $K_r$ was developed in collaboration with Prof. Hongji Yang. 
 
