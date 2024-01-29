@@ -47,7 +47,7 @@ $U_{qq}^{-r}:=V\cdot \left|\Lambda\right|^{-r} \cdot{}V^{T}$.
 
 Currently, I don't know which one is better.
 
-The kinetic energy function that permits correct sampling of multivariate normal distributions __may__ be $K_{0.5}$.
+The kinetic energy function that enables correct sampling of multivariate normal distributions __may__ be $K_{0.5}$.
 
 If the system comprises several particles with collision effects, it is intuitively apparent that there is no difference in jumping probabilities between the two terminals of the simulation trajectory. Therefore, for a multi-particle system with collision, if total energy conservation of the system is enforced during collision, the mutual jump probabilities of any particle's position at either end of the trajectory are equal, and the following equation follows
 
