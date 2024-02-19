@@ -49,9 +49,13 @@ Which one is better?
 
 The kinetic energy function that enables correct sampling of multivariate normal distributions __may__ be $K_{0.5}$.
 
+Simulation:
+
 If the total energy of a multi-particle system is conserved, then after collition, a particle moves to a new position with a certain probability. it is obvious that the particle can move back with the same probability, i.e. :
 
 $P(q_{0 } \to q_{1}) = P(q_{1 } \to q_{0})$.
+
+Sampling:
 
 Thus, the Metropolis algorithm's acceptance probability can be utilized to determine if a particle moves to the new position:
 
