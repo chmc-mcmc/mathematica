@@ -47,7 +47,7 @@ $U_{qq}^{-r}:=V\cdot \left|\Lambda\right|^{-r} \cdot{}V^{T}$.
 
 Which one is better?
 
-The kinetic energy function that enables correct sampling of multivariate normal distributions __may__ be $K_{0.5}$.
+The kinetic energy function that enables correct sampling of multivariate normal distributions may be $K_{0.5}$.
 
 Simulation:
 
