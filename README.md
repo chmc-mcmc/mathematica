@@ -31,7 +31,7 @@ The Kinetic energy $K_r$:
 
 $K_{r}(p,q):=K(p,q;r)=\frac{1}{2}p^{T}\cdot U_{qq}^{-r}\cdot p$.
 
-For simplicity, $r$ is a parameter (unlike $K_p$ and $K_q$).
+For simplicity, $r$ is a runtime parameter (unlike $K_p$ and $K_q$).
 
 Because $r$ can be a decimal, Eigen decomposition is carried out:
 
