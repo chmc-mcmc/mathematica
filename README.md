@@ -164,13 +164,13 @@ I had been thinking about this topic alone for years and have received polarized
 
 Some nice advice came from Prof. Andrew Gelman.
 
-The idea of multi-particle jumped into my mind in Winnipeg when I was working on some research projects for Dr. Christopher Henry. The method of kinetic energy $K_r$ was developed in collaboration with Prof. Hongji Yang.
+The idea of multi-particle jumped into my mind in Winnipeg when I was working on some research projects for Dr. Christopher Henry. Later, I tried to explain the discovery to Mr. Yang, a billionaire, during his lavish hospitality. He said: Good things don't necessarily make money.
+
+The method of kinetic energy $K_r$ was developed in collaboration with Prof. Hongji Yang.
 
 A few colleagues of *Capital of Statistics* (COS, editor Yu Miao) read the early draft.
 
 I would also like to thank my mentors and friends for their encouragement years ago: Xu Hongbing of the University of Electronic Science and Technology, Shang Laiyou of Inner Mongolia Normal University, ...
-
-When I was in Canada, I tried to explain my discovery to Mr. Yang, a billionaire, during his lavish hospitality. He said: Good things don't necessarily make money.
 # Citation
 ```
 @ARTICLE{9585691,
