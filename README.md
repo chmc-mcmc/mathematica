@@ -152,8 +152,7 @@ QS = hmc[U, Uq, Uqq, Uqqq, Dim, BURNIN, ITERATIONS, {.5}, qinit];
 ```
 
 + A remark on a naive question (there are __many more__ others)
-
-To reveal the problems of MCMC methods, quantitative experiments based on multivariate normal distribution can be used.
+>To reveal the problems of MCMC methods, quantitative experiments based on multivariate normal distribution can be used.
 
 # Reference
 + For MCMC: Statistical Mechanics Algorithms and Computations
