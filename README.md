@@ -166,7 +166,7 @@ Some nice advice came from Prof. Andrew Gelman.
 
 The idea of multi-particle jumped into my mind in Winnipeg when I was working on some research projects for Dr. Christopher Henry. The method of kinetic energy $K_r$ was developed in collaboration with Prof. Hongji Yang.
 
-A few colleagues of Capital of Statistics (COS, editor Yu Miao) read the early draft and gave positive comments.
+A few colleagues of *Capital of Statistics* (COS, editor Yu Miao) read the early draft and gave positive comments.
 
 I would also like to thank my mentors and friends for their encouragement years ago: Xu Hongbing of the University of Electronic Science and Technology, Shang Laiyou of Inner Mongolia Normal University, ...
 # Citation
