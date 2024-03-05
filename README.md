@@ -170,7 +170,7 @@ A few colleagues of *Capital of Statistics* (COS, editor Yu Miao) read the early
 
 I would also like to thank my mentors and friends for their encouragement years ago: Xu Hongbing of the University of Electronic Science and Technology, Shang Laiyou of Inner Mongolia Normal University, ...
 
-When I was in Canada, I tried to explain my discovery to billionaire Yang during his lavish hospitality. He said: Good things don't necessarily make money.
+When I was in Canada, I tried to explain my discovery to Mr. Yang, a billionaire, during his lavish hospitality. He said: Good things don't necessarily make money.
 # Citation
 ```
 @ARTICLE{9585691,
