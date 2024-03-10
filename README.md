@@ -172,7 +172,7 @@ The method of kinetic energy $K_r$ was developed in collaboration with Prof. Hon
 
 A few colleagues of *Capital of Statistics* (COS, editor Yu Miao) read the early draft.
 
-I would also like to thank my mentors and friends for their encouragement years ago: Xu Hongbing of the University of Electronic Science and Technology, Shang Laiyou of Inner Mongolia Normal University, ...
+I would also like to thank some mentors and friends for their encouragement years ago: Xu Hongbing of the University of Electronic Science and Technology, Shang Laiyou of Inner Mongolia Normal University, ...
 # Citation
 ```
 @ARTICLE{9585691,
