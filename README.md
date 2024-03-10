@@ -15,7 +15,7 @@ Total energy:
 
 $H(q,p)=K(p,q)+U(q)$.
 
-Hamiltonian Dynamics:
+Hamiltonian dynamics:
 
 $\dot{q}=H_{p}=K_{p}$,
 
@@ -110,7 +110,7 @@ QS = hmc[U, Uq, Uqq, Uqqq, Dim, BURNIN, ITERATIONS, {.5}, {}];
 ```
 QS1 = QS.MatrixPower[SIGMA, -.5];
 StandardDeviation[QS1]
-ListPlot[{QS, QS1}, PlotStyle -> Opacity[1], AspectRatio -> 1, PlotLegends -> {Samples, Transformed}]
+ListPlot[{QS, QS1}, AspectRatio -> 1]
 ```
 
 > {0.99964, 1.0068}
@@ -118,12 +118,6 @@ ListPlot[{QS, QS1}, PlotStyle -> Opacity[1], AspectRatio -> 1, PlotLegends -> {S
 ![scatter plots](bn2.png)
 
 # Additional
-
-+ For difficult models, several kinetic energies can be adopted, e.g.:
-
-```
-QS = hmc[U, Uq, Uqq, Uqqq, Dim, BURNIN, ITERATIONS, {.45,.5,.55}, {}];
-```
 
 + The "complementary hamiltonian monte carlo", i.e. using $K_0$ and $K_1$:
 
