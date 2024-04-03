@@ -51,7 +51,7 @@ The kinetic energy function that enables correct sampling of multivariate normal
 
 Simulation:
 
-If the total energy of a multi-particle system is conserved, then after collition, a particle moves to a new position with a certain probability. it is obvious that the particle can move back with the same probability, i.e. :
+If the total energy of a multi-particle system is conserved, then after collition, a particle moves to a new position with a certain probability. it is obvious that, after another collition, the particle can move back with the same probability, i.e. :
 
 $P(q_{0 } \to q_{1}) = P(q_{1 } \to q_{0})$.
 
