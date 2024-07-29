@@ -145,9 +145,9 @@ qinit = RandomVariate[UniformDistribution[], {CHAINS, Dim}];
 QS = hmc[U, Uq, Uqq, Uqqq, Dim, BURNIN, ITERATIONS, {.5}, qinit];
 ```
 
-+ A remark on a naive question (there are __many more__ others)
++ A remark on a naive question
 
-To reveal the problems of MCMC methods, quantitative experiments based on multivariate normal distribution can be used.
+Multivariate normal distribution can be used to reveal the problems of MCMC methods.
 
 # Reference
 + For MCMC: Statistical Mechanics Algorithms and Computations
@@ -160,13 +160,13 @@ Some nice advice came from Prof. Andrew Gelman.
 
 The idea of multi-particle jumped into my mind in Winnipeg when I was working on some research projects for Dr. Christopher Henry.
 
-Later, I talked about it with Mr. Yang, a billionaire, during his lavish hospitality; he warned cautiously: "Good things don't necessarily make money!"
+Later, during his lavish hospitality, Mr. Yang, a billionaire, warned about it: "Good things don't necessarily make money!"
 
 The method of kinetic energy $K_r$ was developed in collaboration with Prof. Hongji Yang.
 
 A few colleagues of *Capital of Statistics* (COS, editor Yu Miao) read the early draft.
 
-I would also like to thank some mentors and friends for their encouragement years ago: Xu Hongbing of the University of Electronic Science and Technology, Shang Laiyou of Inner Mongolia Normal University, ...
+I would also like to thank some mentors and friends for their encouragement years ago: Xu Hongbing (UESTC), Yang Jian (Nankai / NJUST), and Shang Laiyou (IMNU), ...
 # Citation
 ```
 @ARTICLE{9585691,
