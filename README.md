@@ -160,7 +160,7 @@ Some nice advice came from Prof. Andrew Gelman.
 
 The idea of multi-particle jumped into my mind in Winnipeg when I was working on some research projects for Dr. Christopher Henry.
 
-Later, during his lavish hospitality, Mr. Yang, a billionaire, warned about it: "Good things don't necessarily make money!"
+Later, Mr. Yang, a billionaire, warned about it during his lavish hospitality: "Good things don't necessarily make money!"
 
 The method of kinetic energy $K_r$ was developed in collaboration with Prof. Hongji Yang.
 
