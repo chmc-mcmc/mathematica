@@ -1,5 +1,8 @@
 # Overview
 MCMC based on multi-particle Hamiltonian dynamics, or more appropriately called "Maxwell Hamiltonian Monte Carlo"
+
+[A faster sampler and a few BUGS examples](https://github.com/chmc-mcmc/BUGS)
+
 # Codebase for
 * "A Multi-Trajectory Monte Carlo Sampler"
 * "Robust Inference Based On the Complementary Hamiltonian Monte Carlo"
@@ -146,10 +149,7 @@ QS = hmc[U, Uq, Uqq, Uqqq, Dim, BURNIN, ITERATIONS, {.5}, qinit];
 ```
 
 + A remark on a naive question
-
-Multivariate normal distribution can be used to reveal the problems of MCMC methods.
-
-+ [A faster sampler and a few BUGS examples](https://github.com/chmc-mcmc/BUGS)
+  Multivariate normal distribution can be used to reveal the problems of MCMC methods.
 
 # Reference
 + For MCMC: Statistical Mechanics Algorithms and Computations
