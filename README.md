@@ -149,6 +149,8 @@ QS = hmc[U, Uq, Uqq, Uqqq, Dim, BURNIN, ITERATIONS, {.5}, qinit];
 
 Multivariate normal distribution can be used to reveal the problems of MCMC methods.
 
++ [A faster sampler and a few BUGS examples](https://github.com/chmc-mcmc/BUGS)
+
 # Reference
 + For MCMC: Statistical Mechanics Algorithms and Computations
 + For HMC: Information Theory, Inference, and Learning Algorithms
