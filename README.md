@@ -1,7 +1,7 @@
 # Overview
 MCMC based on multi-particle Hamiltonian dynamics, or more appropriately called "Maxwell Hamiltonian Monte Carlo"
 
-[A faster sampler and a few BUGS examples](https://github.com/chmc-mcmc/BUGS)
+[A slightly faster method](https://github.com/chmc-mcmc/BUGS)
 
 # Codebase for
 * "A Multi-Trajectory Monte Carlo Sampler"
